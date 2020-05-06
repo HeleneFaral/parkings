@@ -17,9 +17,9 @@ public class Parking {
         this.bikePlaces = bikePlaces;
         this.carPlaces = carPlaces;
         this.motoPlaces = motoPlaces;
-        this.motos = new ArrayList<Vehicle>();
-        this.bikes = new ArrayList<Vehicle>();
-        this.cars = new ArrayList<Vehicle>();
+        this.motos = new ArrayList<>();
+        this.bikes = new ArrayList<>();
+        this.cars = new ArrayList<>();
     }
 
     public String getName() {

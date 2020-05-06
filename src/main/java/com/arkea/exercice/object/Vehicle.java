@@ -20,9 +20,7 @@ public class Vehicle {
         this.noGoPakingMessage = NO_GO_PARKING_MESSAGE;
     }
 
-    public Color getColor() {
-        return color;
-    }
+    public Color getColor() { return color; }
 
     public void setColor(Color color) {
         this.color = color;
